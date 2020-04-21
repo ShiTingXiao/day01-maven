@@ -1,9 +1,13 @@
 package cn.jiyun.pojo;
 
+import java.util.Date;
+
 public class Student {
     private String userName;
     private Integer age;
 
+    //开始时间
+    private Date start;
 
     @Override
     public String toString() {
